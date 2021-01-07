@@ -79,7 +79,7 @@ export default function DropDownBank() {
         </Select>
       </FormControl>
       <TextField id="standard-search" label="🔍 Search anything" type="search"
-        onChange={handleSearchText} style={{float: "right"}}/>
+        onChange={handleSearchText} style={{float: "right",width: '150px'}}/>
     </form>
     <BankListTable bank={bank} searchText={search}/>
     </div>
